@@ -56,7 +56,7 @@ When TYPE = TWOSAMPLEMEANS, the difference between sample means is computed by s
 
 When TYPE = PAIREDMEANS, the difference is computed by subtracting the mean of the first visit/measurement, as specified by VAR1 (data in wide “ADSL” format) or by the VIS1-value of VISITVAR (data in long “ADVL” format), from the mean of the second visit, as specified by VAR2 (data in wide “ADSL” format) or by the VIS2-value of VISITVAR (data in long “ADVL” format).
 
-Output is printed to all open ODS destinations. Additionally, results are stored in the work._permtestci_ dataset, containing the following variables:
+Output is printed to all open ODS destinations. Additionally, results are stored in the work.\_permtestci\_ dataset, containing the following variables:
 * MEAN: the one-sample mean. 
 Only included in output data set if TYPE = ONESAMPLEMEAN.
 * DIFF: the difference between the two sample means. 
