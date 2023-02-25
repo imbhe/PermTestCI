@@ -48,6 +48,7 @@ It is strongly recommended to have the macrogen, mlogicmprint, and symbolgen opt
              VIS2 = val2 /* Value of VISITVAR for second visit */
 );
 ``` 
+Additional examples may be found in examples.sas.
 
 #### Results
 The macro computes a 95% confidence interval for the mean of one sample or for the mean difference between two independent or paired samples, as specified by the TYPE parameter. 
