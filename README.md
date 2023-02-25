@@ -71,7 +71,7 @@ Only included in output data set if TYPE = TWOSAMPLEMEANS or PAIREDMEANS.
 *	NOTE: details on method and number of permutations used for computation of confidence interval.
 *	WARN1: Contains a warning if the p-value computed from the permutation test has a 95% confidence interval that covers the value 1-CLEVEL, i.e., does not lie strictly below the desired significance level. Empty string otherwise.
 *	WARN2: Contains a warning if the confidence interval covers the real line or equals data range (TYPE = ONESAMPLEMEANS or PAIREDMEANS with N = 6 observations). Empty string otherwise.
-*	The number of permutations used for computation of the confidence interval. By default chosen as
+*	NPERM: The number of permutations used for computation of the confidence interval. By default chosen as
     - 10 000 if N ≤ 100
     -	5000 if 100 < N ≤ 200
     -	2000 if 200 < N ≤ 500
