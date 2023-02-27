@@ -2,7 +2,7 @@
 SAS macro for computation of confidence intervals for the mean of one sample and for the mean difference between two independent or paired samples, by inversion of the Fisher-Pitman non-parametric permutation test.
 
 #### Requirements
-SAS/STAT and SAS/IML software.
+SAS/IML software.
 
 #### Note of performance
 To reduce computation time, the number of permutations by default ranges from 1,000 (n>500) to 10,000 (n≤100), where n is the number of observations in the dataset. The number of permutations can be set manually using the NPERM argument if a larger number of permutations is desired. 
